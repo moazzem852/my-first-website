@@ -1,0 +1,128 @@
+
+
+
+body{
+	background-color:gray;
+	background-size:contain;
+	margin:10px;
+    background-repeat: no-repeat;
+	
+}
+	.a{
+		font-size:50px;
+		color:#7A1179 ;
+	}
+	
+	
+	
+
+h1{
+	
+	color:#089FB6; 
+	text-align: center;
+	font-size:150px;
+	font-weight:bold;
+	font-family:ink free;
+	font-style:italic;
+	
+	
+}
+.alpa{
+	background-color:#1C2E75;
+	width:300px;
+	height:250px;
+	margin-right:200px;
+	margin-bottom:50px;
+	margin-left:20px;
+	transition:background-color 2s,width 2s
+}
+.alpa:hover{
+	background-color:red;
+	width:1200px;
+	height:500px;
+	transform:skewx(30deg);
+	transition:all 2s;
+}
+
+
+#bita{
+    background-color:#CDEDEC; 
+	width:450px;
+	height:300px;
+
+}
+#bita:hover{
+	width:1200px;
+	height:500px;
+	background-color:green;
+}
+h1:hover{
+	color:yellow;
+	font-size:80px;
+}
+
+
+.gama{
+	background-color:gray;
+	width:1200px;
+	height:350px;
+	background:linear-gradient(to top,green,red,yellow)
+}
+
+
+
+
+#wrapper {
+  border:5px solid red;
+  width:500px;
+  height:300px;
+  overflow:scroll;
+	
+}
+
+#chai{
+    background-color:#470667;
+    width:700px;
+    height:400px;	
+
+
+    animation-name:apple;
+    animation-duration:3s;
+	position:relative;
+	animation-direction:alternate;
+    animation-iteration-count:4;
+    animation-delay: 2s;
+	animation-fill-mode:forwards;
+	
+}
+@keyframes apple{
+    from {background:yellow;top: 0px;}
+  to {top: 200px;background-color: blue;border-radius:50%}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
